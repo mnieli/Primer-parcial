@@ -1,0 +1,84 @@
+/* Estilo base para el cuerpo del documento */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f5; /* bg-zinc-100 */
+    line-height: 1.6; /* leading-normal */
+    letter-spacing: 0.05em; /* tracking-normal */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem; /* p-8 */
+}
+
+/* Estilos para el contenedor del contenido principal */
+.content {
+    max-width: 64rem; /* max-w-4xl */
+    background-color: white;
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 1.25rem; /* p-5 */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+}
+
+/* Estilo para el título */
+.title {
+    font-size: 2.25rem; /* text-4xl */
+    text-align: center;
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+/* Estilos para columnas flexibles */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Alineación y estilo para columnas */
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Espaciado entre elementos */
+.space-y-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Estilo para texto de enlaces */
+.text-blue-500 {
+    color: #3b82f6; /* Blue color from Tailwind CSS */
+    text-decoration: none;
+}
+
+/* Estilo para imágenes */
+.image {
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    width: 200px;
+    height: 300px;
+}
+
+/* Estilo para el pie de página */
+.footer {
+    padding: 1rem; /* Ajustable según necesidad */
+    background-color: #e5e7eb; /* gris claro */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo {
+    text-decoration: none;
+}
