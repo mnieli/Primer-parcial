@@ -12,6 +12,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 8rem; /* p-8 */
+    @media (max-width: 600px) { /* Ajuste para pantallas pequeñas */
+        padding: 2rem; /* Reducir padding en móviles */
 }
 
 /* Estilos para el contenedor del contenido principal */
