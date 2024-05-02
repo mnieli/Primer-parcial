@@ -12,8 +12,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 8rem; /* p-8 */
-    @media (max-width: 600px) { /* Ajuste para pantallas pequeñas */
-        padding: 2rem; /* Reducir padding en móviles */
+
 }
 
 /* Estilos para el contenedor del contenido principal */
@@ -24,8 +23,7 @@ body {
     padding: 0; /* Eliminar padding para alinear al borde */
     padding-top: 0rem; /* Mantener padding para otros elementos */
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
-    @media (max-width: 600px) {
-        padding: 1rem; /* Ajustar padding para móviles */
+
 }
 
 /* Estilo para el título */
@@ -88,9 +86,6 @@ body {
     margin-bottom: 3.5rem;
     border-radius: 1.5rem; /* Bordes redondeados si es necesario */
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra */
-    @media (max-width: 600px) {
-        width: 100%; /* Ajustar ancho para pantallas pequeñas */
-        height: 300px; /* Reducir altura para pantallas pequeñas */
 }
 
 
@@ -99,8 +94,7 @@ body {
     position: botton;
     padding: 0rem; /* Ajustable según necesidad */
     background-color: #e5e7eb; /* gris claro */
-    @media (max-width: 600px) {
-        padding: 1rem; /* Mayor padding para pantallas pequeñas */
+
 }
 
 .footer-content {
@@ -122,4 +116,3 @@ body {
     margin-bottom: 0.3rem;
     border-radius: 0;
 }
-
