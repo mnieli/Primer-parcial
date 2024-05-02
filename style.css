@@ -99,6 +99,8 @@ body {
     position: botton;
     padding: 0rem; /* Ajustable según necesidad */
     background-color: #e5e7eb; /* gris claro */
+    @media (max-width: 600px) {
+        padding: 1rem; /* Mayor padding para pantallas pequeñas */
 }
 
 .footer-content {
