@@ -116,3 +116,15 @@ body {
     margin-bottom: 0.3rem;
     border-radius: 0;
 }
+
+
+@media(max-width:991px) {
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem; /* p-8 */
+    }
+
+
+}
