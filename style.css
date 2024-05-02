@@ -64,11 +64,6 @@ body {
     margin-left: 3.5rem;
     margin-right: 2.5rem;
 
-    @media (max-width: 991px) {
-        margin-top: 1rem; /* Reducir margen para pantallas pequeñas */
-        margin-left: 1rem; /* Menos margen en móviles */
-        margin-right: 1rem;
-
 }
 
 /* Estilo para texto de enlaces */
