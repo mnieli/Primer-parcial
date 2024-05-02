@@ -64,6 +64,11 @@ body {
     margin-left: 3.5rem;
     margin-right: 2.5rem;
 
+    @media (max-width: 991px) {
+        margin-top: 1rem; /* Reducir margen para pantallas pequeñas */
+        margin-left: 1rem; /* Menos margen en móviles */
+        margin-right: 1rem;
+
 }
 
 /* Estilo para texto de enlaces */
@@ -117,27 +122,7 @@ body {
     border-radius: 0;
 }
 
-
-@media(max-width:991px) {
     
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem; /* p-8 */
-    }
 
-    .flex-row {
-        display: flex;
-        flex-direction: column;
-    
-        }
-    }
-
-    .background-image {
-        position: relative;
-        width: 200px;
-        height: 250px;
-
-        }
 
     
