@@ -171,4 +171,15 @@ body {
     /* Ajustes para el pie de página */
     .footer {
         padding: 5px; /* Ajustar el padding para evitar desbordamientos */
-        text-align: center; /*
+        text-align: center; /* Asegura que el contenido del pie de página esté centrado */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Cambiar a disposición vertical */
+        align-items: center; /* Centra el contenido */
+    }
+
+    .logo-container {
+        margin-bottom: 1px; /* Ajustar el margen */
+    }
+} /* Cierre del bloque @media */
