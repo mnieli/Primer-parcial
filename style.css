@@ -78,11 +78,18 @@ body {
     text-decoration: none;
 }
 
+.image-container {
+    flex: 1; /* La imagen ocupa todo el ancho disponible en pantallas pequeñas */
+    text-align: center; /* Centra el contenido */
+    padding: 10px; /* Espaciado interno */
+    position: relative;
+}
+
 /* Contenedor con imagen de fondo */
 .background-image {
     position: relative; /* Para permitir posicionamiento relativo de elementos internos */
-    width: 500px; /* Ancho deseado del marco */
-    height: 400px; /* Altura deseada del marco */
+    width: 300px; /* Ancho deseado del marco */
+    height: 350px; /* Altura deseada del marco */
     background-image: url('images/yo.jpeg'); /* Ruta a tu imagen */
     background-size: cover; /* Asegura que la imagen cubra todo el fondo */
     background-position: center; /* Centra la imagen en el contenedor */
@@ -125,48 +132,43 @@ body {
 
     
 @media (max-width: 768px) {
- .container {
-    margin: 20px;
-    padding: 10px;
-  }
+    /* Ajustar la alineación del contenedor */
+    .container {
+        padding: 20px; /* Ajustar el padding para tener más espacio */
+        text-align: center; /* Asegura que todo el contenido esté centrado */
+    }
 
- .content {
-    flex-direction: column;
-  }
+    .content {
+        flex-direction: column; /* Para que el contenido se disponga en columnas */
+        align-items: center; /* Centra el contenido */
+    }
 
- .flex-row {
-    flex-direction: column;
-  }
+    .flex-row {
+        flex-direction: column; /* Cambiar la dirección para pantallas pequeñas */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+    }
 
- .background-image {
-    width: 300px;
-    height: 350px;
-    margin: 10px;
-    margin-left: 2.5rem;
-    margin-right: rem;
-  
-  }
+    .image-container {
+        text-align: center; /* Centra la imagen */
+        padding: 10px; /* Espaciado interno */
+        max-width: 100%; /* Asegura que la imagen no se desborde */
+    }
 
- .space-y-2 {
-    gap: 0.2rem;
-    margin-bottom: 2rem;
-  }
+    .background-image {
+        max-width: 100%; /* La imagen no se desborda del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin: 0; /* Eliminar márgenes que podrían causar desplazamiento */
+    }
 
- .space-y-2 > div {
-    margin-bottom: 0.2rem;
-  }
+    .space-y-2 {
+        margin-left: auto; /* Eliminar desplazamiento hacia la izquierda */
+        margin-right: auto; /* Asegura que el contenido esté centrado */
+        gap: 0.2rem; /* Reducir el espaciado entre elementos */
+        padding: 20px; /* Añadir espaciado para mayor flexibilidad */
+    }
 
- .footer {
-    padding: 5px;
-  }
-
- .footer-content {
-    flex-direction: column;
-  }
-
- .logo-container {
-    margin-bottom: 1px;
-  }
-}
-
-    
+    /* Ajustes para el pie de página */
+    .footer {
+        padding: 5px; /* Ajustar el padding para evitar desbordamientos */
+        text-align: center; /*
