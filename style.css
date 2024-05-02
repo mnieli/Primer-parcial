@@ -24,6 +24,8 @@ body {
     padding: 0; /* Eliminar padding para alinear al borde */
     padding-top: 0rem; /* Mantener padding para otros elementos */
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    @media (max-width: 600px) {
+        padding: 1rem; /* Ajustar padding para móviles */
 }
 
 /* Estilo para el título */
