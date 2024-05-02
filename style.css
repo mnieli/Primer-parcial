@@ -131,7 +131,7 @@ body {
 }
 
     
-@media (max-width: 768px) {
+@media (max-width: 464px) {
     /* Ajustar la alineación del contenedor */
     .container {
         padding: 20px; /* Ajustar el padding para tener más espacio */
