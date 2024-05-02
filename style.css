@@ -126,5 +126,9 @@ body {
         padding: 2rem; /* p-8 */
     }
 
-
-}
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+    
+        }
+    }
