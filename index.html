@@ -8,7 +8,7 @@
     <!-- Referencia a la fuente Poppins desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     
-    <!-- Referencia a tu archivo CSS personalizado -->
+    <!-- Referencia a mi archivo CSS personalizado -->
     <link rel="stylesheet" href="style.css"> <!-- Ruta relativa al archivo CSS -->
 </head>
 <body>
@@ -17,24 +17,26 @@
             <h1 class="title">Diseño y Desarrollo Web</h1>
             <div class="flex-row">
                 <!-- Columna izquierda para imagen -->
-                <div class="flex-center">
-                    <img src="yo.jpeg" alt="Yo" class="image">
+                <div class="background-image">
                 </div>
 
                 <!-- Columna derecha para detalles del proyecto -->
                 <div>
-                    <div class="space-y-2">
+                    <div class="space-y-2" style="gap: 0.5rem;">
                         <div><strong>Nombre y Apellido:</strong> Marcelo Nieli</div>
                         <div><strong>Carrera:</strong> Licenciatura en Gestión de Tecnología de la Información</div>
                         <div><strong>Curso:</strong> 13049</div>
-                        <div><strong>Proyecto:</strong> Servicio de grabación profesional con Drones</div>
+                        <div>
+                            <strong>Proyecto:</strong>
+                            <p style="margin: 0;">Grabación profesional con Drones</p>
+                        </div>
                         <div>
                             <strong>Descripción:</strong>
-                            <p>El proyecto está orientado para empresas que necesiten adquirir grabaciones de alto impacto y de gran calidad para mostrar sus sitios, productos o algún evento.</p>
+                            <p style="margin: 0;">Servicio orientado a empresas que necesiten grabaciones de calidad para mostrar productos o eventos.</p>
                         </div>
-                        <p><strong>Prototipo:</strong> <a href="#" class="text-blue-500">Link al prototipo</a></p>
-                        <p><strong>Sitio:</strong> <a href="#" class="text-blue-500">Link a URL del sitio</a></p>
-                        <p><strong>Repositorio:</strong> <a href="#" class="text-blue-500">Link al repositorio .git</a></p>
+                        <p style="margin: 0;"><strong>Prototipo:</strong> <a href="#" class="text-orange-500">Link al prototipo</a></p>
+                        <p style="margin: 0;"><strong>Sitio:</strong> <a href="#" class="text-orange-500">Link a URL del sitio</a></p>
+                        <p style="margin: 0;"><strong>Repositorio:</strong> <a href="https://github.com/mnieli/Primer-parcial" class="text-orange-500">Link al repositorio .git</a></p>
                     </div>
                 </div>
             </div>
@@ -42,11 +44,13 @@
             <!-- Pie de página -->
             <footer class="footer">
                 <div class="footer-content">
-                    <a href="#inicio" class="logo">
-                        <img src="uade_una_gran_universidad.png" alt="Logotipo" width="100" height="50">
-                    </a>
+                    <div class="logo-container">
+                        <a href="#inicio" class="logo">
+                            <img src="images/uade_una_gran_universidad.png" alt="Logotipo" width="80" height="30">
+                        </a>
+                    </div>
                 </div>
-            </footer>
+            </footer>            
         </div>
     </div>
 </body>

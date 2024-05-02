@@ -4,29 +4,36 @@ body {
     background-color: #f4f4f5; /* bg-zinc-100 */
     line-height: 1.6; /* leading-normal */
     letter-spacing: 0.05em; /* tracking-normal */
+    
 }
 
 /* Contenedor principal */
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem; /* p-8 */
+    padding: 8rem; /* p-8 */
 }
 
 /* Estilos para el contenedor del contenido principal */
 .content {
     max-width: 64rem; /* max-w-4xl */
     background-color: #FFFAF7;
-    border-radius: 0.5rem; /* rounded-lg */
-    padding: 1.25rem; /* p-5 */
+    margin-top: 0;
+    padding: 0; /* Eliminar padding para alinear al borde */
+    padding-top: 0rem; /* Mantener padding para otros elementos */
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
 }
 
 /* Estilo para el título */
 .title {
-    font-size: 2.25rem; /* text-4xl */
+    position: top;
+    font-size: 1.7rem; /* text-4xl */
     text-align: center;
+    padding: 1.8rem;
+    margin-top: 0;
     margin-bottom: 1rem; /* mb-4 */
+    background-color: #e5e7eb;
+    font-weight: bold;
 }
 
 /* Estilos para columnas flexibles */
@@ -50,27 +57,41 @@ body {
 .space-y-2 {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.1rem;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    margin-right: 2.5rem;
+
 }
 
 /* Estilo para texto de enlaces */
-.text-blue-500 {
-    color: #3b82f6; /* Blue color from Tailwind CSS */
+.text-orange-500 {
+    color: #FF8400;
     text-decoration: none;
 }
 
-/* Estilo para imágenes */
-.image {
-    border-radius: 0.5rem; /* rounded-lg */
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
-    width: 200px;
-    height: 300px;
+/* Contenedor con imagen de fondo */
+.background-image {
+    position: relative; /* Para permitir posicionamiento relativo de elementos internos */
+    width: 450px; /* Ancho deseado del marco */
+    height: 400px; /* Altura deseada del marco */
+    background-image: url('images/yo.jpeg'); /* Ruta a tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el contenedor */
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 0rem;
+    margin-bottom: 3.5rem;
+    border-radius: 1.5rem; /* Bordes redondeados si es necesario */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra */
 }
+
 
 /* Estilo para el pie de página */
 .footer {
-    padding: 1rem; /* Ajustable según necesidad */
-    background-color: #FF8400; /* gris claro */
+    position: botton;
+    padding: 0rem; /* Ajustable según necesidad */
+    background-color: #e5e7eb; /* gris claro */
 }
 
 .footer-content {
@@ -82,3 +103,14 @@ body {
 .footer .logo {
     text-decoration: none;
 }
+
+.logo-container {
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0;
+}
+
