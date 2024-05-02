@@ -139,11 +139,11 @@ body {
   }
 
  .background-image {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     margin: 10px;
     margin-left: 2.5rem;
-    margin-right: 2.0rem;
+    margin-right: rem;
   
   }
 
